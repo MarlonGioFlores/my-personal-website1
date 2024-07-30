@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
     --primary-color: #050C9C;
@@ -6,5 +8,37 @@
     --tertiary-color: #3ABEF9;
     --quaternary-color: #A7E6FF;
 
+    /* tittles and headers */
     --primary-font: "Poppins", sans-serif;
+    /* secundary tittles or important texts */
+    --secundary-font: "Raleway", sans-serif;
+    /* paragaph and subtittles */
+    --tertiary-font: "Montserrat", sans-serif;
+
 }
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-family: var(--secundary-font);
+    font-size: 3rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.6rem;
+    background-image: linear-gradient(to right, var(--primary-color), var(--tertiary-color));
+    color: white;
+}
+
+.navbar-tittle {}
+
+.navbar-icons {
+    cursor: pointer;
+}
+
+.navbar-icon {}
